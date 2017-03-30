@@ -1,0 +1,18 @@
+
+<!--index.wxml-->
+<view class="container">
+  <view class="action-bar">
+      <button class="action-bar-button" size="mini" bindtap="clearBooklist">清理</button>
+
+    <button class="action-bar-button" size="mini" bindtap="addBook">添加新书</button>
+  </view>
+  <view class="book-list">
+    <view class="book-item" wx:for="{{booklist}}" wx:key="id" >
+      <view class="book-info" bindtap="viewDetails" data-bookid="{{item.id}}">
+        <text class="book-name"> {{item.name}} </text>
+        <text class="book-progress">Page {{item.currentPage}} of {{item.totalPage}}</text>
+      </view>
+      <image class="book-cover" src="{{item.cover}}" mode="aspectFit"></image>
+    </view>
+  </view>
+</view>

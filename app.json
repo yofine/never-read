@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/newbook/index",
+    "pages/bookdetails/bookdetails"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "读不完",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "读书",
+        "iconPath": "images/book.png",
+        "selectedIconPath": "images/book.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购书",
+        "iconPath": "images/cart.png",
+        "selectedIconPath": "images/cart.png"
+
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+<view class="bookdetail-container">
+  <view class="title">
+    <text>{{book.name}}</text>
+  </view>
+  <view class="progress">
+    <view class="started">
+      <text> 已经读了 {{days}} 天</text>
+    </view>
+    <view class="speed">
+      <text>平均每天读 {{speed}} 页</text>
+    </view>
+  </view>
+  <view class="cover">
+    <image class="book-cover-preview" src="{{book.cover}}" mode="aspectFit" bindtap="chooseImage"></image>
+  </view>
+  <view class="actionbar">
+    <view class="paging">
+      <input disabled value="{{book.currentPage}}"></input>
+      <button bindtap="up">上翻</button>
+      <button bindtap="down">下翻</button>
+    </view>
+    <view class="ending">
+      <button bindtap="ending">读完了！</button>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,79 @@
+/**index.wxss**/
+page {
+  height: 100%;
+  font-size: 70%;
+  background-color: #ddd;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  background-color:#ddd;
+}
+.action-bar {
+  display: flex;
+  border-bottom: solid 1px #addad1;
+  background-color: #4285f4;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  
+}
+.action-bar-button {
+  font-size: 18px;
+  background-color: #ffffff;
+}
+.book-list {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 0 0 auto;
+  padding: 20px 16px;
+  border: rgba(0,0,0,.4);
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.book-item {
+  display: flex;
+  flex: 0 0 80px;
+  border-bottom: solid 1px #addad1;
+  width: 100%;
+  justify-content: space-between;
+  padding: 5px 5px 5px 5px;
+  background-color: #ffffff;
+
+}
+.book-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+  text-align: left;
+  justify-content: flex-start;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.book-name {
+  flex: 1 1 0;
+  font-size: 18px;
+  font-weight:bold;
+  color: #212121;
+}
+.book-progress {
+  flex: 1 1 0;
+  color: #757575;
+}
+.book-cover {
+  align-self: flex-end;
+  flex: 0 0 80px;
+  height: 80px;
+}
+
+.button-hover {
+  background-color: grey;
+}

@@ -1,0 +1,91 @@
+page {
+  height: 100%;
+  font-size: 70%;
+}
+
+.newbook-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.newbook-container .title {
+  display: flex;
+  flex: 0 0 50px;
+  background-color: #0f9d58;
+  width: 100%;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.newbook-container .book-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.newbook-container .book-form .cover {
+  display: flex;
+  justify-content: center;
+  flex: 0 0 135px;
+  margin-bottom: 20px;
+}
+
+.newbook-container .book-form .section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 80px;
+  font-size: 16px;
+  background-color: #ddd;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.newbook-container .book-form .datepicker .picker {
+  height: 1.4rem;
+  display: flex;
+  align-items: center;
+}
+
+.newbook-container .book-form .btn-area {
+  display: flex;
+  flex: 0 0 80px;
+  justify-content: center;
+  align-items: center;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+  height: 100%;
+  width: 100%;
+}
+.newbook-container .book-form .btn-area .btn-submit {
+  width: 100%;
+  background-color: #ef6c00
+}
+.newbook-container .book-form .btn-area .btn-cancel {
+  width: 100%;
+  background-color: #e7e7e7
+}
+
+.book-cover-preview {
+  background-color: #ddd;
+  width: 107px;
+  height: 135px;
+  border-radius: 10px;
+}
